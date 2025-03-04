@@ -1,13 +1,13 @@
 cvm-version: 0.0.14
 ovmf-version: 0.0.2
-cpus: 16
+cpus: 8
 memory: 32768
 
 metrics: 10.0.2.2:6379
 
 models:
   - id: deepseek-r1:70b
-    mpk: foo
+    mpk: a85fbd8b2a941253a4add3ff333ec17096f7fcf1036c7603f46390145053623b-42520403968
 
 shim:
   domains:
