@@ -1,9 +1,7 @@
-cvm-version: 0.0.15
+cvm-version: 0.0.19
 ovmf-version: 0.0.2
 cpus: 8
 memory: 32768
-
-metrics: 10.0.2.2:6379
 
 models:
   - id: deepseek-r1:70b
@@ -16,7 +14,3 @@ shim:
   upstream-port: 11434
   paths:
     - /v1/chat/completions
-    - /v1/embeddings
-    - /api/chat
-    - /api/generate
-    - /api/embed
